@@ -1,0 +1,724 @@
+cd
+clear
+df -h
+cd /
+ls
+ip a
+ls
+c;ear
+cd
+clear
+ls
+cd
+cl
+exit
+poweroff
+cd
+ip a
+poweroff
+vim /etc/yum.repos.d/CentOS-Base.repo
+vi /etc/yum.repos.d/CentOS-Base.repo
+cp /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.bak
+vi /etc/yum.repos.d/CentOS-Base.repo
+ls -la /etc/yum.repos.d/
+vi /etc/yum.repos.d/CentOS-Base.repo
+cd
+vi update.txt
+cd /etc/sysconfig/network-scripts/ifcfg-eth0 
+vi /etc/sysconfig/network-scripts/ifcfg-eth0 
+vi update.txt
+vi /etc/sysconfig/network
+vi /etc/sysconfig/network-scripts/ifcfg-wlan0 
+cp /etc/sysconfig/network-scripts/ifcfg-wlan0 /etc/sysconfig/network-scripts/ifcfg-wlan0.bak 
+vi /etc/sysconfig/network-scripts/ifcfg-wlan0 
+vi update.txt
+service network start
+ip a
+ls
+clear
+poweroff
+cd
+cat update.txt 
+service network restart
+ip a
+service network restart
+ip a
+cd /etc/sysconfig/network-scripts/ifcfg-eth0 
+vi /etc/sysconfig/network-scripts/ifcfg-eth0 
+service network restart
+ip a
+vi /etc/sysconfig/network-scripts/ifcfg-eth0 
+reboot
+service network restart
+czt update.txt 
+cat update.txt 
+ip a
+yum update
+yum upgrade
+vi /etc/yum.repos.d/CentOS-Base.repo
+yum upgrade
+vi /etc/yum.repos.d/CentOS-Base.repo
+yum upgrade
+poweroff
+vi /etc/yum.repos.d/CentOS-Base.repo
+vi /etc/sysconfig/network-scripts/ifcfg-eth0 
+vi /etc/sysconfig/network
+service network restart
+ping 8.8.8.8
+vi /etc/sysconfig/network
+reboot
+ping 8.8.8.8
+vi /etc/sysconfig/network
+service network restart
+reboot
+vi /etc/yum.repos.d/CentOS-Base.repo
+vi /etc/sysconfig/network-scripts/ifcfg-eth0 
+vi /etc/sysconfig/network
+vi /etc/sysconfig/network-scripts/ifcfg-eth0 
+reboot
+vi /etc/sysconfig/network-scripts/ifcfg-eth0 
+service network start
+ip a
+vi /etc/yum.repos.d/CentOS-Base.repo
+ip a
+service network start
+ip a
+yum upgrade
+vi /etc/yum.repos.d/CentOS-Base.repo
+yum upgrade
+vi /etc/yum.repos.d/CentOS-Base.repo
+yum upgrade
+vi /etc/yum.repos.d/CentOS-Base.repo
+yum upgrade
+cat update.txt 
+yum install wireless-tools
+yum install wireless-tools -y
+yum install network-tui
+yum install networkmanager-tui
+yum install nmtui
+yum install Network-tui
+yum install NetworkManager-tui
+yum install networkmanagertui
+yum search network
+yum install tunctl
+yum search network
+yum search networktui
+yum search tui
+yum search nmtui
+yum search networkctl
+yum search network
+yum install xterm
+yum install xorg-server
+yum install xorg-x11-xinit
+yum install xorg-x11-server
+yum install xorg-x11-driver
+yum install xorg-x11-drivers
+yum install xorg-x11-drivers matchbox-window-manager
+yum install xorg-x11-drivers matchbox-window-manager firefox
+yum install xorg-x11-drivers xorg-x11-servers matchbox-window-manager firefox
+yum install xorg-x11-drivers xorg-x11-servers matchbox-window-manager firefox -y
+yum install system-config^network
+yum install system-config-network
+yum install system-config-network-tui
+nmtui
+tui
+ system-config-network-tui
+ system-config-network
+yum upgrade
+yum update
+yum install php*
+yum install php
+yum install php* mysql*
+yum search mysql*
+yum search mysql
+yum install php*
+yum install apache
+yum install apache2
+yum install httpd
+yum install httpd*
+yum install mysql
+yum install mysql*
+yum search mysql
+yum search mysql
+yum install httpd* php* mysql
+yum install httpd* php* mysql -y
+php -v
+php -m
+yum install mysql*
+yum install mysql* -y
+ df -h
+reboot
+df -h
+poweroff
+cd
+ip a
+clear
+php -m
+blkid
+vi --version
+which gcc
+man useradd
+clear
+ckear
+ksusb
+poweroff
+cd
+uname -a
+ls /etc/X11/xorg.conf.d/
+ls /var/log/mysqld.log 
+vi /var/log/mysqld.log 
+vi /etc/sysconfig/network-scripts/ifcfg-wlan0
+yum install wpa-supplicant
+ip a
+service network start
+ip a
+yum search wpa-supplicant
+yum search wpa-
+yum search wpa
+yum search wpa_supplicant
+yum install wpa_supplicant
+vi /etc/wpa_supplicant/wpa_supplicant.conf 
+vi /etc/sysconfig/network-scripts/ifcfg-wlan0
+service wpa_supplicant restart
+service network start
+ip a
+ping google.com
+vi /etc/sysconfig/network-scripts/ifcfg-eth0
+service network start
+service wpa_supplicant restart
+service network start
+ip a
+/sbin/ifup wlan0 up
+ip a
+reboot
+ 
+ip a
+vi /etc/sysconfig/wpa_supplicant 
+vi /etc/init.d/prepnet
+chmod a+rx /etc/init.d/prepnet
+ln -s /etc/init.d/prepnet /etc/rc3.d/S09prepnet
+ln -s /etc/init.d/prepnet /etc/rc5.d/S09prepnet
+chkconfig messagebus off
+chkconfig wpa_supplicant off
+chkconfig off
+chkconfig network on
+reboot
+ip a
+clear
+ip a
+nmtui
+tui
+service network start
+ip a
+ping 1.1.1.1
+ip a
+cat /etc/sysconfig/network-scripts/ifcfg-eth0
+echo "IPV4_FATAL_FAILURE=no" >> /etc/sysconfig/network-scripts/ifcfg-wlan0
+cat /etc/sysconfig/network-scripts/ifcfg-wlan0
+ip a
+cat /etc/sysconfig/network-scripts/ifcfg-eth0
+echo "DFROUTE=yes" >> /etc/sysconfig/network-scripts/ifcfg-wlan0
+echo "PEERDNS=yes" >> /etc/sysconfig/network-scripts/ifcfg-wlan0
+echo "PEERROUTES=yes" >> /etc/sysconfig/network-scripts/ifcfg-wlan0
+echo "IPV6INIT=yes" >> /etc/sysconfig/network-scripts/ifcfg-wlan0
+ip a
+REBOOT
+reboot
+  
+ip a
+ping 1.1.1.1
+ip a
+yum install system-config-network
+system-config-network
+ip a
+chkconfig system-config-network off
+nmtui
+system-config-network
+tui
+network-tui
+system-config-network-tui
+chkconfig system-config-network-tui off
+ip a
+service network start
+service network restart
+ip a
+ip a 
+vi /etc/sysconfig/wpa_supplicant 
+ip a 
+cat /etc/sysconfig/network-scripts/ifcfg-wlan0
+vi /etc/sysconfig/network-scripts/ifcfg-wlan0
+reboot
+ping 8.8.8.8
+firefox
+date
+firefox
+ip a
+Xorg :0 -configure
+vi /etc/X11/xorg.conf.d/intel.conf
+ls
+vi .xinitrc
+startx
+clear
+ip a
+reboot
+startx
+yum install git
+git -v
+git --version
+git clone https://github.com/nldun/ROCKY
+yum install openssl
+yum install curl
+yum install wget
+wget https://github.com/nldun/ROCKY
+ls
+cd ROCKY 
+vi ROCKY 
+clear
+git clone https://github.com/nldun/ROCKY
+rm -rf ROCKY 
+git clone https://github.com/nldun/ROCKY
+git clone https://github.com/nldun/
+clear
+git update
+git update-ref
+ls
+ls -la
+clear
+useradd eki
+passwd eki
+exit
+cd
+cd /var/www/html/
+la
+wget https://ftp.drupal.org/files/projects/drupal-7.1.tar.gz
+ls
+tar -xpvf drupal-7.1.tar.gz 
+ls
+cd drupal-7.1
+ls
+cd ../
+ls
+mv drupal-*/ /var/www/drupal
+ls
+l
+ls
+cd ../
+ls
+cd html/
+ls
+tar -xpvf drupal-7.1.tar.gz 
+mv drupal-*/ /var/www//html/drupal
+ls
+ls -la
+cd ../
+ls -la
+cd ../
+ls -l
+ls -la
+cd www/html/
+ls
+chown -R apache:apache /var/www/html/drupal
+ls -la
+chmod -R 755 /var/www/html/drupal
+cd drupal/sites/default/
+ks
+ls
+mkdir files
+cp default.settings.php settings.php 
+ls
+chown -R apache:apache /var/www/html/drupal
+vi /etc/httpd/conf.d/drupal.conf
+vi /etc/hosts
+systemctl start apache
+systemctl start apache2
+systemctl start apacsbin/service httpd restart
+sbin/service httpd restart
+/sbin/service httpd restart
+vi /etc/httpd/conf.d/drupal.conf
+/sbin/service php restart
+/sbin/service httpd restart
+vi /var/www/html/info.php
+/sbin/service httpd restart
+cat /etc/host
+cat /etc/hosts
+ls
+vi /etc/httpd/conf
+vi /etc/httpd/conf/httpd.conf 
+/sbin/service httpd restart
+vi /etc/httpd/conf/httpd.conf 
+vi /etc/httpd/conf.d/drupal.conf
+/sbin/service httpd restart
+vi /etc/httpd/conf.d/drupal.conf
+vi /etc/httpd/conf/httpd.conf 
+/sbin/service httpd restart
+iptables -I INPUT -p tcp --dport 80 -j ACCEPT
+/sbin/service httpd restart
+service iptables save
+/sbin/chkconfig --list httpd
+/sbin/chkconfig httpd on
+/sbin/chkconfig --list httpd
+/sbin/service httpd restart
+vi /etc/httpd/conf.d/drupal.conf
+/sbin/service httpd restart
+yum install httpd mod_ssl
+/sbin/service httpd restart
+vi /etc/httpd/conf/httpd.conf 
+/sbin/service httpd restart
+vi /etc/httpd/conf/httpd.conf 
+/sbin/service httpd restart
+/usr/sbin/apachectl restart
+sbin/chkconfig --list httpd
+/sbin/chkconfig --list httpd
+/usr/sbin/apachectl restart
+vi /var/www/html/
+vi /var/www/html/index.php
+vi /var/www/html/index.html
+/usr/sbin/apachectl restart
+/sbin/service httpd restart
+cd
+yum install httpd
+yum install httpd-mod
+reboot
+cd
+cp /etc/httpd/conf.d/drupal.conf  /etc/httpd/conf.d/vhost1.conf
+vi  /etc/httpd/conf.d/vhost1.conf
+mkdir -p /var/www/html/example.org/public_html
+mkdir -p /var/www/html/example.org/logs
+service httpd start
+service httpd restart
+chkconfig httpd on
+vi /etc/httpd/conf/httpd.conf 
+cp /etc/httpd/conf/httpd.conf /etc/httpd/conf/httpd.conf.bak 
+vi /etc/httpd/conf/httpd.conf 
+service httpd restart
+vi  /etc/httpd/conf.d/vhost1.conf
+service httpd restart
+vi  /etc/httpd/conf.d/vhost1.conf
+cat /usr/sbin/apachectl
+exit
+cd
+cat /usr/sbin/apachectl
+service httpd restart
+exit
+df -h
+reboot
+sbin/chkconfig --list httpd
+/sbin/chkconfig --list httpd
+yum remove httpd mod_ssl
+yum remove mod_ssl
+service httpd restart
+reboot
+service httpd restart
+vi /etc/httpd/conf.d/vhost1.conf 
+service httpd restart
+vi /etc/httpd/conf.d/vhost1.conf 
+service httpd restart
+vi /etc/httpd/conf.d/vhost1.conf 
+vi /etc/httpd/conf.d/README 
+vi /etc/httpd/conf.d/welcome.conf 
+
+vi /etc/httpd/conf/httpd.conf
+vi /etc/httpd/conf.d/vhost1.conf 
+service httpd restart
+vi /etc/httpd/conf.d/vhost1.conf 
+service httpd restart
+vi /etc/httpd/conf.d/vhost1.conf 
+service httpd restart
+vi /etc/httpd/conf.d/vhost1.conf 
+service httpd restart
+vi /etc/httpd/conf.d/vhost1.conf 
+exit
+vi /etc/httpd/conf.d/vhost1.conf 
+service httpd restart
+vi /etc/httpd/conf/httpd.conf
+vi /home/eki/.Xdefaults 
+exit
+vi /etc/httpd/conf/httpd.conf
+apachectl -k stop
+/etc/init.d/httpd start
+vi /etc/httpd/conf/httpd.conf
+apachectl -k stop
+/etc/init.d/httpd start
+vi /etc/sysconfig/
+vi /etc/sysctl.conf 
+/etc/init.d/httpd start
+vi /etc/sys
+vi /etc/sysconfig/network
+reboot
+vi /etc/httpd/conf/httpd.conf
+vi /etc/hosts
+mv /etc/httpd/conf.d/vhost1.conf /etc/httpd/conf.d/vhost1.conf.bak
+apachectl -k stop
+/etc/init.d/httpd start
+vi /etc/httpd/conf/httpd.conf
+apachectl -k stop
+/etc/init.d/httpd start
+vi /etc/httpd/conf/httpd.conf
+apachectl -k stop
+/etc/init.d/httpd start
+vi /etc/httpd/conf/httpd.conf
+apachectl -k stop
+/etc/init.d/httpd start
+cd
+chown -R apache:apache /var/www/html/example.com/
+chmod -R 755 /var/www/html/
+apachectl -k stop
+/etc/init.d/httpd start
+ip a
+cat /etc/hosts
+/etc/init.d/httpd start
+apachectl -k stop
+/etc/init.d/httpd start
+vi /etc/httpd/conf/httpd.conf
+apachectl -k stop
+/etc/init.d/httpd start
+vi /etc/httpd/conf/httpd.conf
+apachectl -k stop
+/etc/init.d/httpd start
+vi /etc/httpd/conf/httpd.conf
+apachectl -k stop
+/etc/init.d/httpd start
+vi /etc/httpd/conf/httpd.conf
+/etc/init.d/httpd start
+apachectl -k stop
+/etc/init.d/httpd start
+vi /etc/httpd/conf/httpd.conf
+apachectl -k stop
+/etc/init.d/httpd start
+poweroff
+cd
+ip s
+ip a
+ping google.com
+ip a
+reboot
+rm -rf .xinitrc 
+rm -rf /home/eki/.xinitrc 
+ip a
+service network restart
+ip a
+yum install groupinstall "X Window System"
+yum install groupinstall X Window System
+yum install Desktop
+yum install groupinstall
+yum upgrade
+yum groupinstall "Gnome"
+yum groupinstall "GNOME Desktop"
+yum groupinstall "X Window System"
+yum groupinstall "Dekstop"
+yum groupinstall "General Purpose Dekstop"
+yum groupinstall "X Window System"
+yum groupinstall "X Window System" -y
+yum groupinstall "Dekstop"
+yum groupinstall "General Purpose Dekstop"
+reboot
+cd
+clear
+ip a
+exit
+mv /etc/httpd/conf.d/drupal.conf /etc/httpd/conf.d/drupal.conf.bak
+apachectl -k stop
+/etc/init.d/httpd start
+vi /etc/httpd/conf/httpd.conf
+ip a
+vi /etc/httpd/conf.d/drupal.conf.bak 
+php -m
+ls
+cd
+mkdir -p /var/www/html/dddrupal.com/public_cms
+cd /var/www/html/dddrupal.com/public_cms
+ls
+ls -la
+wget https://ftp.drupal.org/files/projects/drupal-7.0.tar.gz
+ls
+tar -xpvf drupal-7.0.tar.gz 
+lss
+ls
+rm -rf drupal-7.0.tar.gz 
+ls
+pwd
+chown -R apache:apache /var/www/html/dddrupal.com/public_cms/drupal-7.0
+chmod -R 755 /var/www/html/dddrupal.com/public_cms/drupal-7.0
+mkdir /var/www/html/dddrupal.com/public_cms/drupal-7.0/sites/default/files
+cp /var/www/html/dddrupal.com/public_cms/drupal-7.0/sites/default/default.settings.php  /var/www/html/dddrupal.com/public_cms/drupal-7.0/sites/default/settings.php
+semanage fcontext -a -t httpd_sys_rw_content_t"/var/www/html/dddrupal.com/public_cms/drupal-7.0(/.*)?"
+
+vi /etc/httpd/conf.d/drupal.conf.bak 
+vi /etc/hosts
+chcon -R -t httpd_sys_content_rw_t /var/www/html/dddrupal.com/public_cms/drupal-7.0/sites/
+vi /etc/httpd/conf.d/drupal.conf
+vi /etc/hosts
+vi /etc/httpd/conf.d/drupal.conf
+cd /var/www/html/drupal
+ls
+cd ../
+ls
+rm -rf drupal
+rm -rf drupal-7.1.tar.gz 
+ls
+pwd
+cp /var/www/html/dddrupal.com/public_cms/drupal-7.0 /var/www/html/drupal1
+mv /var/www/html/dddrupal.com/public_cms/drupal-7.0 /var/www/html/drupal1
+ls
+mv drupal1/ drupal/
+ls
+mv /etc/httpd/conf.d/drupal.conf /etc/httpd/conf.d/drupal.conf.bak
+vi /etc/hosts
+cd drupal/
+ls
+chwon -R  /var/www/html/drupal/
+chcon -R -t httpd_sys_content_rw_t /var/www/html/drupal/sites/
+ls -la httpd_sys_content_rw_t /var/www/html/drupal/sites/default/files/
+ls -la /var/www/html/drupal/sites/default/files/
+rm -rf  /var/www/html/drupal/sites/default/files/
+ls -la /var/www/html/drupal/
+chown -R apache:apache /var/www/html/drupal/
+chcon -R -t httpd_sys_content_rw_t /var/www/html/drupal/sites/
+mkdir  /var/www/html/drupal/sites/default/files
+ls-la  /var/www/html/drupal/sites/default/files
+ls -la  /var/www/html/drupal/sites/default/files
+date
+cat /etc/hosts
+htop
+yum install htop
+lscpu
+cd
+cd /var/www/drupal/
+ls -l
+cd sites/default/
+ls
+cd ../
+ls
+cd default/
+ls
+cd ../
+ls
+cd ../
+ls
+vi /etc/httpd/conf/httpd.conf
+cd
+apachectl -k stop
+/etc/init.d/httpd start
+cat /hosts
+cat /etc/hosts
+apachectl -k stop
+/etc/init.d/httpd start
+vi /etc/hosts
+apachectl -k stop
+/etc/init.d/httpd start
+vi /etc/hosts
+apachectl -k stop
+/etc/init.d/httpd start
+apachectl -k stop
+/etc/init.d/httpd start
+apachectl -k stop
+vi /etc/httpd/conf/httpd.conf
+apachectl -k stop
+/etc/init.d/httpd start
+apachectl -k stop
+vi /etc/httpd/conf.d/drupal.conf.bak 
+cd
+chkconfig --level 35 httpd on
+iptable -A INPUT -p tcp --dport 80 -j ACCEPT
+service iptable show
+iptables -A INPUT -p tcp --dport 80 -j ACCEPT
+service iptable show
+iptables -A INPUT -p tcp --dport 443 -j ACCEPT
+service iptable save
+service iptables save
+service iptables restart
+yum install php php-mbstring
+yum install php php-mbstring php-gd 
+yum install php php-mbstring php-gd php-xml
+yum install php php-mbstring php-gd php-xml php-pear
+yum install php php-mbstring php-gd php-xml php-fpm
+yum install php php-mbstring php-gd php-xml php-fpm php-mysql
+yum install php php-mbstring php-gd php-xml php-fpm php-mysql php-pdo
+yum install php php-mbstring php-gd php-xml php-fpm php-mysql php-pdo php-opcache
+echo "<?php phpinfo(); ?>" > /var/www/html/info.php
+service httpd restart
+ip a
+apachectl -k stop
+service httpd start
+service httpd restart
+apachectl -k stop
+service httpd restart
+apachectl -k stop
+service httpd start
+service httpd restart
+cd
+service mysql start
+service mysqld start
+chkconfig --level 35 mysql 0n
+chkconfig --level 35 mysql on
+chkconfig --level 35 mysqld on
+mysql_secure_installation
+mysql -u root -p
+mv /etc/httpd/conf.d/drupal.conf.bak /etc/httpd/conf.d/drupal.conf
+apachectl -k stop
+service mysqld start
+service mysqld restart
+service httpd start
+service httpd restart
+cat /etc/httpd/conf.d/drupal.conf
+apachectl -k stop
+service httpd restart
+apachectl -k stop
+service httpd restart
+apachectl -k stop
+service httpd restart
+apachectl -k stop
+service httpd restart
+apachectl -k stop
+service httpd restart
+service httpd start
+apachectl -k stop
+service httpd start
+yum groupremove "General Purpose Dekstop"
+yum groupinstall "General Purpose Dekstop"
+yum groupinstall "Dekstop"
+yum groupremove "X Window System"
+reboot
+yum groupremove "X Window System"
+reboot
+vi /etc/sysconfig/
+vi /etc/sysctl.conf 
+vi /etc/networks 
+vi /etc/sysconfig/httpd
+ip a
+yum install pcmanfm
+yum install thunar
+yum install x
+yum update
+apachectl -k stop
+ls
+cd Desktop/
+ls
+cd ../
+ls
+env-update
+etc-update
+sourc /etc/profile
+source /etc/profile
+du
+ls -la
+cd
+vi /etc/hosts
+cd /etc/httpd/conf/httpd.conf
+vi /etc/httpd/conf/httpd.conf
+clear
+ip a
+vi /etc/hosts
+yum install xorg-x11-xinit
+exit
+yum install xorg-x11-driver
+yum install xorg-x11-drivers
+reboot
+xorg :0 -configure
+xorg :0 --configure
+Xorg :0 -configure
+exit
+reboot
+cd
+vi /etc/X11/xorg.conf.d/90-monitor.conf
+reboot
